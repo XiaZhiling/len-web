@@ -9,6 +9,6 @@
  * @ClassName: package-info 
  * @Description: 系统工具包 
  * @author xzl<l576477316@foxmail.com>
- * @date 2016年6月13日 上午11:59:04  
+ * @date 2016年6月13日 下午4:17:14  
  */
-package com.len.util;
+package com.len.core.util;
