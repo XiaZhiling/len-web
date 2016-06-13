@@ -19,6 +19,18 @@
 		<spring.version>4.2.4.RELEASE</spring.version>
 		<slf4j.version>1.7.21</slf4j.version>
 		<log4j.version>1.2.17</log4j.version>
+		
+		
+		<mysql.version>5.1.36</mysql.version>
+		<oracle.version>10.2.0.4.0</oracle.version>
+		<druid.version>1.0.15</druid.version>
+		<mybatis.version>3.3.0</mybatis.version>
+		<mybatis.spring.version>1.2.5</mybatis.spring.version>
+		
+		<shiro.version>1.2.4</shiro.version>
+		
+		
+		<junit.version>4.12</junit.version>
 
 	</properties>
 
@@ -63,6 +75,12 @@
 			<artifactId>slf4j-api</artifactId>
 			<version>${slf4j.version}</version>
 		</dependency>
+		
+		<!-- Spring MVC -->
+		<dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+		</dependency>
 
 		<!-- SLF4J 日志切面使用log4j API -->
 		<dependency>
@@ -76,12 +94,78 @@
 			<artifactId>log4j</artifactId>
 			<version>${log4j.version}</version>
 		</dependency>
+		
+		<!-- mysql JDBC Driver -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.version}</version>
+		</dependency>
+		
+		<!-- oracle JDBC Driver 需要先安装在本地仓库
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc14</artifactId>
+			<version>${oracle.version}</version>
+		</dependency>
+		-->
+		
+		<!-- DruidDataSource 数据连接池 -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>${druid.version}</version>
+		</dependency>
+		
+		<!-- Mybatis -->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>${mybatis.version}</version>
+		</dependency>
+		
+		<!-- Mybatis 与 Spring 整合 -->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
+			<version>${mybatis.spring.version}</version>
+		</dependency>
 
 
+		
+		
+		<!-- shiro 安全控制  -->
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-core</artifactId>
+			<version>${shiro.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-web</artifactId>
+			<version>${shiro.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-quartz</artifactId>
+			<version>${shiro.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-ehcache</artifactId>
+			<version>${shiro.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-spring</artifactId>
+			<version>${shiro.version}</version>
+		</dependency>
+
+		<!-- junit test框架 -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.12</version>
+			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
