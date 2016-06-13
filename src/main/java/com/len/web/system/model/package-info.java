@@ -7,7 +7,7 @@
  */
 /** 
  * @ClassName: package-info 
- * @Description: TODO(这里用一句话描述这个类的作用) 
+ * @Description: 系统相关的model类包
  * @author xzl<l576477316@foxmail.com>
  * @date 2016年6月13日 下午12:00:23  
  */
