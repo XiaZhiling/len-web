@@ -8,7 +8,7 @@
 package com.len.web.system.dao;
 
 import com.len.core.generic.GenericDao;
-import com.len.web.system.model.User;
+import com.len.web.system.entity.User;
 
 /** 
  * @ClassName: UserDao 

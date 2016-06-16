@@ -7,8 +7,8 @@
  */
 /** 
  * @ClassName: package-info 
- * @Description: 数据访问 
+ * @Description: 系统相关的模型数据
  * @author xzl<l576477316@foxmail.com>
- * @date 2016年6月13日 下午12:00:35  
+ * @date 2016年6月13日 下午12:00:23  
  */
-package com.len.web.system.dao;
+package com.len.web.system.entity;

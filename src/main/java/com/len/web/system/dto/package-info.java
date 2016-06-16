@@ -7,8 +7,8 @@
  */
 /** 
  * @ClassName: package-info 
- * @Description: 系统相关的model类包
+ * @Description: DTO数据传输层
  * @author xzl<l576477316@foxmail.com>
- * @date 2016年6月13日 下午12:00:23  
+ * @date 2016年6月16日 上午9:12:03  
  */
-package com.len.web.system.model;
+package com.len.web.system.dto;

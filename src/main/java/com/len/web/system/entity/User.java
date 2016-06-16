@@ -5,7 +5,7 @@
  * under the License.
  * @version v1.0
  */
-package com.len.web.system.model;
+package com.len.web.system.entity;
 
 import java.util.Date;
 
@@ -74,5 +74,19 @@ public class User {
 	public void setCreateTime(Date createTime) {
 		this.createTime = createTime;
 	}
+	
+	public User(String uid, String userName, String password, String mobile, String email, Date birthday, String status,
+			Date createTime) {
+		super();
+		this.uid = uid;
+		this.userName = userName;
+		this.password = password;
+		this.mobile = mobile;
+		this.email = email;
+		this.birthday = birthday;
+		this.status = status;
+		this.createTime = createTime;
+	}
+	
 	
 }

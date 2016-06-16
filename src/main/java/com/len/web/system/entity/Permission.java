@@ -5,7 +5,7 @@
  * under the License.
  * @version v1.0
  */
-package com.len.web.system.model;
+package com.len.web.system.entity;
 
 /** 
  * @ClassName: Permission 
